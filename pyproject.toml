@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "dummy-dataset"
+version = "0.01.0"
+description = ""
+authors = ["DG"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "dummy_dataset"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.0.3"
+datetime = "^5.2"
+numpy = "^1.25.1"
+plotly-express = "^0.4.1"
+dash = "^2.11.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
